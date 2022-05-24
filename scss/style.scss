@@ -4,15 +4,16 @@
      padding: 0;
      box-sizing: border-box;
 }
-body{
-	background: white;
-}
 .nav-link, .dropdown-item{
 	font-weight: bold;
 }
 .link-regular{
 	font-weight: 400;
 }
+.navbar-light{
+	color: #222;
+}
+.bg-navbar{background: white;}
 @media screen and (min-width:992px) {
 	.navbar{
 		width: 100% !important;
@@ -53,6 +54,12 @@ body{
 		margin-left: .5rem;
 		font-size: 1.7rem;
 		font-family: "Montserrat";
+	}
+	.bg-navbar{
+		background-color: black;
+	}
+	.navbar-light{
+		color: white;
 	}
 }
 .gap{
