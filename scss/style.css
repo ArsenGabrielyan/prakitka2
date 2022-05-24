@@ -1,7 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Nunito:ital,wght@0,400;0,500;0,700;1,400&display=swap");
 * {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+body {
+  background: #f1f1f1;
+}
+
+.nav-link, .dropdown-item {
+  font-weight: bold;
+}
+
+@media screen and (min-width: 992px) {
+  .navbar {
+    height: 100vh;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .navbar .container-fluid {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .navbar-expand-lg .navbar-collapse {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .navbar-expand-lg .navbar-nav {
+    -webkit-box-align: start !important;
+        -ms-flex-align: start !important;
+            align-items: flex-start !important;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .navbar-expand-lg .navbar-nav .dropdown-menu.show {
+    position: static;
+    background-color: #f1f1f1;
+    margin-left: 2rem;
+    border: none;
+  }
+  .navbar-brand {
+    font-weight: bold;
+    letter-spacing: 5px;
+    margin-left: .5rem;
+    font-size: 1.7rem;
+    font-family: "Montserrat";
+  }
+}
+
+.gap {
+  margin: 50px 0;
+}
+
+.gap-small {
+  margin: 25px 0;
 }
 /*# sourceMappingURL=style.css.map */
