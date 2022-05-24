@@ -7,15 +7,20 @@
 }
 
 body {
-  background: #f1f1f1;
+  background: white;
 }
 
 .nav-link, .dropdown-item {
   font-weight: bold;
 }
 
+.link-regular {
+  font-weight: 400;
+}
+
 @media screen and (min-width: 992px) {
   .navbar {
+    width: 100% !important;
     height: 100vh;
     -webkit-box-align: start;
         -ms-flex-align: start;
@@ -29,6 +34,9 @@ body {
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start;
+  }
+  .navbar a {
+    width: 200px;
   }
   .navbar-expand-lg .navbar-collapse {
     -webkit-box-orient: vertical;
@@ -47,9 +55,13 @@ body {
   }
   .navbar-expand-lg .navbar-nav .dropdown-menu.show {
     position: static;
-    background-color: #f1f1f1;
+    background-color: white;
     margin-left: 2rem;
     border: none;
+  }
+  .navbar-expand-lg .navbar-nav .nav-link:hover, .navbar-expand-lg .navbar-nav .dropdown-item:hover {
+    color: black;
+    background: #dbdbdb;
   }
   .navbar-brand {
     font-weight: bold;
