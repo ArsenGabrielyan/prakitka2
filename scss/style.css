@@ -91,4 +91,55 @@ body {
 .right .icon {
   margin: 0 10px;
 }
+
+.box1 {
+  width: 100%;
+}
+
+.box1 img {
+  width: 100%;
+}
+
+.box1 .box1-body {
+  top: 0px;
+  left: 0px;
+  padding: 25px 36px;
+  width: 100%;
+  height: 100%;
+}
+
+.btn-black {
+  background: black;
+  color: white;
+}
+
+.btn-black:hover {
+  background: #dbdbdb;
+  color: black;
+}
+
+.box-2 img {
+  width: 100%;
+  max-width: 600px;
+  margin: 10px 0;
+  -webkit-filter: grayscale(50%);
+          filter: grayscale(50%);
+}
+
+.no-gap {
+  margin-top: -5px;
+}
+
+.text-orangered {
+  color: #f44336;
+}
+
+.bg-orangered {
+  background: #f44336;
+}
+
+.grayscale-50 {
+  -webkit-filter: grayscale(50%);
+          filter: grayscale(50%);
+}
 /*# sourceMappingURL=style.css.map */
