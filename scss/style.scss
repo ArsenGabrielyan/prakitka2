@@ -13,6 +13,83 @@ body{
 .link-regular{
 	font-weight: 400;
 }
+.gap{
+	margin: 50px 0;
+	&-small{
+		margin: 25px 0;
+	}
+}
+.title{
+	padding: 20px 0;
+}
+.right{
+	font-size: 25px;
+	.icon{
+		margin: 0 10px;
+	}
+}
+.box1{
+	width: 100%;
+	img{
+		width: 100%;
+	}
+	.box1-body{
+		top: 0px;
+		left: 0px;
+		padding: 25px 36px;
+		width: 100%;
+		height: 100%;
+	}
+}
+.btn-black{
+	background: black;
+	color: white;
+	&:hover{
+		background: #dbdbdb;
+		color: black;
+	}
+}
+.badge-black{
+	background: black;
+	color: white;
+}
+.box-2{
+	img{
+		width: 100%;
+		max-width: 600px;
+		margin: 10px 0;
+		filter: grayscale(50%);
+	}
+	&:hover{
+		.hoverBox{
+			display: block;
+		}
+	}
+}
+.no-gap{
+	margin-top: -5px;
+	
+}
+.text-orangered{
+	color: #f44336;
+}
+.bg-orangered{
+	background: #f44336;
+}
+.grayscale-50{
+	filter: grayscale(50%);
+}
+.pos-badge{
+	top: 7px;
+	z-index: 9999;
+}
+.hoverBox{
+	display: none;
+	z-index: 99999;
+	position: absolute;
+	left: 25%;
+	bottom: 55%;
+}
 @media screen and (min-width:992px) {
 	.navbar{
 		width: 100% !important;
@@ -55,60 +132,33 @@ body{
 		font-family: "Montserrat";
 	}
 }
-.gap{
-	margin: 50px 0;
-	&-small{
-		margin: 25px 0;
+@media screen and (max-width:1024px){
+	.hoverBox{
+		left: 15%;
 	}
 }
-.title{
-	padding: 20px 0;
-}
-.right{
-	font-size: 25px;
-	.icon{
-		margin: 0 10px;
+@media screen and (max-width:992px){
+	.hoverBox{
+		left: 30%;
+		bottom: 50%;
 	}
 }
-.box1{
-	width: 100%;
-	img{
-		width: 100%;
-	}
-	.box1-body{
-		top: 0px;
-		left: 0px;
-		padding: 25px 36px;
-		width: 100%;
-		height: 100%;
+@media screen and (max-width:425px){
+	.hoverBox{
+		left: 15%;
+		bottom: 55%;
 	}
 }
-.btn-black{
-	background: black;
-	color: white;
-	&:hover{
-		background: #dbdbdb;
-		color: black;
+@media screen and (max-width:375px){
+	.hoverBox{
+		left: 8%;
 	}
 }
-.box-2{
-	img{
-		width: 100%;
-		max-width: 600px;
-		margin: 10px 0;
-		filter: grayscale(50%);
+@media screen and (max-width:320px){
+	.hoverBox{
+		bottom: 60%;
+		a{
+			font-size: 12px;
+		}
 	}
-}
-.no-gap{
-	margin-top: -5px;
-	
-}
-.text-orangered{
-	color: #f44336;
-}
-.bg-orangered{
-	background: #f44336;
-}
-.grayscale-50{
-	filter: grayscale(50%);
 }
