@@ -79,4 +79,16 @@ body {
 .gap-small {
   margin: 25px 0;
 }
+
+.title {
+  padding: 20px 0;
+}
+
+.right {
+  font-size: 25px;
+}
+
+.right .icon {
+  margin: 0 10px;
+}
 /*# sourceMappingURL=style.css.map */
