@@ -73,8 +73,8 @@ body {
   width: 100%;
   max-width: 600px;
   margin: 10px 0;
-  -webkit-filter: grayscale(50%);
-          filter: grayscale(50%);
+  -webkit-filter: grayscale(75%);
+          filter: grayscale(75%);
 }
 
 .box-2:hover .hoverBox {
@@ -94,8 +94,8 @@ body {
 }
 
 .grayscale-50 {
-  -webkit-filter: grayscale(50%);
-          filter: grayscale(50%);
+  -webkit-filter: grayscale(64%);
+          filter: grayscale(64%);
 }
 
 .pos-badge {
@@ -198,5 +198,63 @@ body {
   .hoverBox a {
     font-size: 12px;
   }
+}
+
+.subscribe-box {
+  background: black;
+  padding: 25px;
+}
+
+.btn-orangered {
+  background: #f44336;
+  color: white;
+  margin: 10px 0;
+}
+
+.btn-orangered:hover {
+  background-color: #dbdbdb;
+  color: black;
+}
+
+.site-footer {
+  background: #dbdbdb;
+  padding: 16px;
+}
+
+.copyright {
+  background: black;
+  padding: 16px;
+}
+
+.frm input {
+  margin: 10px 0;
+}
+
+.frm button {
+  width: 100%;
+}
+
+.link-black {
+  color: black;
+  font-weight: lighter;
+  font-size: 13px;
+  margin: -1px;
+}
+
+.lst-info {
+  margin: 15px 0;
+  padding: 0 !important;
+  list-style: none;
+}
+
+.lst-payment {
+  margin: 15px 0;
+  padding: 0 !important;
+  list-style: none;
+}
+
+.sm a {
+  color: black;
+  font-size: 20px;
 }
 /*# sourceMappingURL=style.css.map */
