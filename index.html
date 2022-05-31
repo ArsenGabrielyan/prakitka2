@@ -53,13 +53,15 @@
                   </li>
                   <div class="gap-small"></div>
                   <li class="nav-item">
-                      <a class="nav-link link-regular" href="#">Contact</a>
+                      <a class="nav-link link-regular" href="#contact">Contact</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link link-regular" href="#">Newsletter</a>
+                      <button type="button" class="btn btn-modal" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Newsletter
+                      </button>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link link-regular" href="#">Subscribe</a>
+                      <a class="nav-link link-regular" href="#subscribe">Subscribe</a>
                     </li>
                 </ul>
               </div>
@@ -179,7 +181,7 @@
               </div>
             </div>
           </div>
-          <div class="subscribe-box">
+          <div class="subscribe-box" id="subscribe">
             <h3 class="display-5 text-light">Subscribe</h3>
             <h5 class="fw-light text-light">To get special offers and VIP treatment:</h5>
             <form action="#">
@@ -187,7 +189,7 @@
               <button class="btn btn-orangered">Subscribe</button>
             </form>
           </div>
-          <footer class="site-footer">
+          <footer class="site-footer" id="contact">
             <div class="row">
               <div class="col-4">
                 <h3 class="fw-light text-center">Contact</h3>
@@ -242,6 +244,23 @@
             </div>
         </div>
     </div>  
+    </div>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Newsletter</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p class="fw-light text-center">Join our mailing list to receive updates on new arrivals and special offers.</p>
+            <input type="text" class="form-control" placeholder="Enter e-mail">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-orangered" data-bs-dismiss="modal">Subscribe</button>
+          </div>
+        </div>
+      </div>
     </div>
      <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
      <script src="js/bootstrap.bundle.min.js"></script>
